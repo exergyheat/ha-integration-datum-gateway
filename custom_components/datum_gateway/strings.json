@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DATUM Gateway Setup",
+        "description": "Enter the URL of your DATUM Gateway dashboard",
+        "data": {
+          "host": "Gateway URL (e.g., https://your-gateway.local)",
+          "verify_ssl": "Verify SSL certificate"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to DATUM Gateway. Check the URL and ensure the gateway is accessible.",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "DATUM Gateway is already configured"
+    }
+  }
+}
