@@ -213,13 +213,3 @@ Contributions welcome! Please:
 ## License
 
 MIT License - See LICENSE file for details
-
-## Changelog
-
-### v1.0.0 (2024-12-14)
-- Initial release
-- Support for mining performance sensors
-- Pool status monitoring
-- Block template information
-- Multi-thread hashrate tracking
-- Config flow UI setup
