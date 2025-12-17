@@ -1,9 +1,10 @@
 {
   "domain": "datum_gateway",
   "name": "DATUM Gateway",
-  "codeowners": ["@thespace"],
+  "codeowners": ["@tronsington"],
   "config_flow": true,
-  "documentation": "https://github.com/ocean-xyz/datum_gateway",
+  "documentation": "https://github.com/exergyheat/ha-integration-datum-gateway",
+  "issue_tracker": "https://github.com/exergyheat/ha-integration-datum-gateway/issues",
   "integration_type": "device",
   "iot_class": "local_polling",
   "requirements": ["beautifulsoup4==4.12.2"],
