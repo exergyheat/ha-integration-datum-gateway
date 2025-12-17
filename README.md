@@ -50,7 +50,7 @@ A custom Home Assistant integration for monitoring DATUM Gateway Bitcoin mining 
 
 4. Search for "DATUM Gateway"
 
-5. Enter your DATUM Gateway URL (e.g., `https://5hbkkkoi7d5n44cn5e7zrrxtrpukrwlf5rthsnmuv253usc5ybnq3pqd.local`)
+5. Enter your DATUM Gateway URL (e.g., `https://your-datum-gateway-url.local` or '197.16.0.100')
 
 6. Uncheck "Verify SSL certificate" if using self-signed certificate
 
