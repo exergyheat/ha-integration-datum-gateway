@@ -1,4 +1,4 @@
-# DATUM Gateway Custom Integration for Home Assistant
+# Exergy - DATUM Gateway Custom Integration for Home Assistant
 
 A custom Home Assistant integration for monitoring DATUM Gateway Bitcoin mining operations.
 
@@ -48,7 +48,7 @@ A custom Home Assistant integration for monitoring DATUM Gateway Bitcoin mining 
 
 3. Go to **Settings** → **Devices & Services** → **Add Integration**
 
-4. Search for "DATUM Gateway"
+4. Search for "Exergy - DATUM Gateway"
 
 5. Enter your DATUM Gateway URL (e.g., `https://your-datum-gateway-url.local` or '197.16.0.100')
 
@@ -172,7 +172,7 @@ If this fails, check:
 - Default update interval: 30 seconds
 - Check Home Assistant logs for errors
 - Verify gateway dashboard loads correctly in browser
-- Restart the integration: Settings → Devices & Services → DATUM Gateway → Reload
+- Restart the integration: Settings → Devices & Services → Exergy - DATUM Gateway → Reload
 
 ## Requirements
 
@@ -202,13 +202,13 @@ Contributions welcome! Please:
 ## Support
 
 - **DATUM Gateway Issues**: https://github.com/OCEAN-xyz/datum_gateway/issues
-- **Integration Issues**: Create an issue in this repository
+- **Integration Issues**: https://github.com/exergyheat/ha-integration-datum-gateway/issues
 - **Ocean Mining Pool**: https://ocean.xyz
 
 ## Credits
 
 - **DATUM Gateway**: Created by OCEAN.xyz and Bitcoin Ocean, LLC
-- **Integration**: Built for The Space mining operation
+- **Integration**: Developed by Exergy
 
 ## License
 

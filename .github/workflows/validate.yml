@@ -2,19 +2,32 @@ name: Validate
 
 on:
   push:
+    branches:
+      - main
   pull_request:
-  schedule:
-    - cron: "0 0 * * *"
+    branches:
+      - main
 
 jobs:
-  validate:
+  validate-hacs:
     runs-on: "ubuntu-latest"
-    name: Validate
+    name: HACS Validation
+    # Only run validation on the exergyheat remote
+    if: github.repository == 'exergyheat/ha-integration-datum-gateway'
     steps:
-      - uses: "actions/checkout@v3"
+      - uses: "actions/checkout@v4"
       - name: HACS validation
         uses: "hacs/action@main"
         with:
           category: "integration"
+          ignore: "brands"
+
+  validate-hassfest:
+    runs-on: "ubuntu-latest"
+    name: Hassfest Validation
+    # Only run validation on the exergyheat remote
+    if: github.repository == 'exergyheat/ha-integration-datum-gateway'
+    steps:
+      - uses: "actions/checkout@v4"
       - name: Hassfest validation
         uses: "home-assistant/actions/hassfest@master"
