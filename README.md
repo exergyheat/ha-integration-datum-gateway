@@ -170,7 +170,7 @@ If this fails, check:
 ### Data Not Updating
 
 - Default update interval: 30 seconds
-- Check Home Assistant logs for API errors
+- Check Home Assistant logs for errors
 - Verify gateway dashboard loads correctly in browser
 - Restart the integration: Settings → Devices & Services → Exergy - DATUM Gateway → Reload
 
