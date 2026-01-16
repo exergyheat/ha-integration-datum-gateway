@@ -2,14 +2,18 @@ name: Validate
 
 on:
   push:
+    branches:
+      - main
   pull_request:
-  schedule:
-    - cron: "0 0 * * *"
+    branches:
+      - main
 
 jobs:
   validate:
     runs-on: "ubuntu-latest"
     name: Validate
+    # Only run validation on the exergyheat remote
+    if: github.repository == 'exergyheat/ha-integration-datum-gateway'
     steps:
       - uses: "actions/checkout@v3"
       - name: HACS validation

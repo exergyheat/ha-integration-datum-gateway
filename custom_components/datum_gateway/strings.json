@@ -2,7 +2,7 @@
   "config": {
     "step": {
       "user": {
-        "title": "DATUM Gateway Setup",
+        "title": "Exergy - DATUM Gateway Setup",
         "description": "Enter the URL of your DATUM Gateway dashboard",
         "data": {
           "host": "Gateway URL (e.g., https://your-gateway.local)",

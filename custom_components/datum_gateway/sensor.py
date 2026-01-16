@@ -65,8 +65,8 @@ class DatumSensorBase(CoordinatorEntity, SensorEntity):
         self._attr_has_entity_name = True
         self._attr_device_info = {
             "identifiers": {(DOMAIN, entry.entry_id)},
-            "name": "DATUM Gateway",
-            "manufacturer": "OCEAN.xyz",
+            "name": "Exergy - DATUM Gateway",
+            "manufacturer": "Exergy",
             "model": "DATUM Gateway",
         }
 

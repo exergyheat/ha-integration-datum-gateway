@@ -1,6 +1,6 @@
 {
   "domain": "datum_gateway",
-  "name": "DATUM Gateway",
+  "name": "Exergy - DATUM Gateway",
   "codeowners": ["@tronsington"],
   "config_flow": true,
   "documentation": "https://github.com/exergyheat/ha-integration-datum-gateway",
